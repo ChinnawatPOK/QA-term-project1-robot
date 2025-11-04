@@ -1,0 +1,6 @@
+robotframework
+PyMySQL>=0.9.2
+pyyaml>=6.0
+robotframework-requests
+robotframework-databaselibrary
+robotframework-jsonlibrary
