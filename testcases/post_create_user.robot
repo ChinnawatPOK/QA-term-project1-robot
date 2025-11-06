@@ -31,3 +31,8 @@ TC_003 Test call single create user and validate should success
     Then Should Be Equal As Integers    ${response.status_code}    201
     And Verify User In Database   userId=${response.json()['userId']}  expected_data=${create_user.TC_001.request_body}
     [Teardown]  Delete all data
+
+TC_004 Test call single create user and validate should bad request
+    [Setup]    Connect database connection
+    When Call API Create User   body=${create_user.TC_004.request_body}  expected_status=400
+    Then Should Be Equal As Integers    ${response.status_code}    400

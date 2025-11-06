@@ -5,3 +5,9 @@ create_user:
         "title": "test_TC_001",
         "body": "body_TC_001"
     }
+  TC_004:
+    request_body: {
+      "userId": "0",
+      "title": "a",
+      "body": "a"
+    }
