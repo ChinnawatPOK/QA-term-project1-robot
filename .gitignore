@@ -1,0 +1,8 @@
+.idea/
+target/
+dist/
+
+*.log
+log.html
+output.html
+report.html

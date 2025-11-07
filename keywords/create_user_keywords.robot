@@ -21,6 +21,11 @@ Verify User In Database
     log   ${query_response}
     Should Be Equal As Numbers   ${expected_data['userId']}   ${query_response[0][1]}
     Should Be Equal As Strings   ${expected_data['title']}   ${query_response[0][2]}
+    
+Verify User Database is Empty
+    [Arguments]  ${userId}
+    ${query_response}=  Query data from posts table by userId  userId=${userId}
+    Log   ${query_response}
 
 Template call api and verify json file valid case
     [Arguments]   ${request_body}
@@ -31,9 +36,7 @@ Template call api and verify json file valid case
 
 Template call api and verify json file invalid case
     [Arguments]   ${request_body}
+    [Setup]    Delete all data
     Call API Create User   body=${request_body}  expected_status=400
     Should Be Equal As Integers    ${response.status_code}    400
-    # Verify body text
-#    ${body_text}=    Convert To String    ${response.text}
-#    Should Be Equal    ${body_text}    Bad Request
 
