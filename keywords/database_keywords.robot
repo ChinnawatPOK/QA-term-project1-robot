@@ -11,10 +11,9 @@ ${DBPORT}     3306
 *** Keywords ***
 Query data from posts table by userId
     [Arguments]   ${userId}
-    Connect To Database   pymysql  ${DBNAME}  ${DBUSER}  ${DBPASS}  ${DBHOST}  ${DBPORT}
     ${query}=  Set Variable  SELECT * FROM posts where user_id=${userId};
     ${result}=  Query   ${query}
-    [return]   ${result}
+    RETURN   ${result}
 
 Connect database connection
     Connect To Database   pymysql  ${DBNAME}  ${DBUSER}  ${DBPASS}  ${DBHOST}  ${DBPORT}

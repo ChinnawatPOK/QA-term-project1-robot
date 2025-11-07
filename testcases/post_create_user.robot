@@ -6,20 +6,19 @@ Variables    ../resources/testdata/create_user_data.yml
 
 Suite Setup    Connect database connection
 Suite Teardown    Disconnect From Database
+
 *** Test Cases ***
 TC_001 Test call single create user and validate should success
-    [Setup]    Connect database connection
     When Call API Create User   body=${create_user.TC_001.request_body}
     Then Should Be Equal As Integers    ${response.status_code}    201
     And Verify User In Database   userId=${response.json()['userId']}  expected_data=${create_user.TC_001.expected_data}
     [Teardown]  Delete all data
 
 TC_002 Test call single create user and validate should bad request
-    [Setup]    Run Keywords  Connect database connection
-               ...   AND   Delete all data
+    [Setup]    Delete all data
     When Call API Create User   body=${create_user.TC_002.request_body}  expected_status=400
     Then Should Be Equal As Integers    ${response.status_code}    400
-    AND Verify User Database is Empty  userId=${create_user.TC_002.request_body.userId}
+    And Verify User Database is Empty  userId=${create_user.TC_002.request_body.userId}
 
 TC_003 Test all data in json file valid cases
     [Documentation]   Test read file from json file and verify should be correct

@@ -21,6 +21,7 @@ Verify User In Database
     log   ${query_response}
     Should Be Equal As Numbers   ${expected_data['userId']}   ${query_response[0][1]}
     Should Be Equal As Strings   ${expected_data['title']}   ${query_response[0][2]}
+    Should Be Equal As Strings   ${expected_data['body']}   ${query_response[0][3]}
     
 Verify User Database is Empty
     [Arguments]  ${userId}
@@ -39,4 +40,3 @@ Template call api and verify json file invalid case
     [Setup]    Delete all data
     Call API Create User   body=${request_body}  expected_status=400
     Should Be Equal As Integers    ${response.status_code}    400
-
