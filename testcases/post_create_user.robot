@@ -20,6 +20,7 @@ TC_002 Test call single create user and validate should bad request
     Then Should Be Equal As Integers    ${response.status_code}    400
     And Verify User Database is Empty  userId=${create_user.TC_002.request_body.userId}
 
+# Help qa focus on business cases
 TC_003 Test all data in json file valid cases
     [Documentation]   Test read file from json file and verify should be correct
     ${json_obj}=    Load JSON From File    resources/testdata/posts-post-fuzzed-data.json

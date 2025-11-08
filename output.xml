@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.14.0 on darwin)" generated="2025-11-07T17:28:03.661288" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.14.0 on darwin)" generated="2025-11-08T20:36:58.827508" rpa="false" schemaversion="5">
 <suite id="s1" name="Testcases" source="/Users/chinnawat-pok/Documents/QA-term-project1-robot/testcases">
 <suite id="s1-s1" name="Post Create User" source="/Users/chinnawat-pok/Documents/QA-term-project1-robot/testcases/post_create_user.robot">
 <kw name="Connect database connection" owner="database_keywords" type="SETUP">
-<msg time="2025-11-07T17:28:03.759287" level="TRACE">Arguments: [  ]</msg>
+<msg time="2025-11-08T20:36:58.914969" level="TRACE">Arguments: [  ]</msg>
 <kw name="Connect To Database" owner="DatabaseLibrary">
-<msg time="2025-11-07T17:28:03.759589" level="TRACE">Arguments: [ 'pymysql' | 'myappdb' | 'root' | 'rootpassword' | 'localhost' | 3306 ]</msg>
-<msg time="2025-11-07T17:28:03.759644" level="INFO">Looking for configuration file: 'resources/db.cfg'</msg>
-<msg time="2025-11-07T17:28:03.759657" level="INFO">Configuration file doesn't exist</msg>
-<msg time="2025-11-07T17:28:03.759665" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759671" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759677" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759682" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759687" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759691" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759696" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759700" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759705" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759710" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759714" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759719" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759723" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759728" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759732" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759737" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759741" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759746" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.759751" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.765431" level="INFO">Connect to DB using : pymysql.connect(db='myappdb', user='root', passwd=***, host='localhost', port=3306, charset='utf8mb4')</msg>
-<msg time="2025-11-07T17:28:03.774852" level="TRACE">Return: None</msg>
+<msg time="2025-11-08T20:36:58.915261" level="TRACE">Arguments: [ 'pymysql' | 'myappdb' | 'root' | 'rootpassword' | 'localhost' | 3306 ]</msg>
+<msg time="2025-11-08T20:36:58.915319" level="INFO">Looking for configuration file: 'resources/db.cfg'</msg>
+<msg time="2025-11-08T20:36:58.915333" level="INFO">Configuration file doesn't exist</msg>
+<msg time="2025-11-08T20:36:58.915341" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915348" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915354" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915359" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915364" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915368" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915373" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915378" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915383" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915387" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915392" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915396" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915401" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915406" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915410" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915415" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915419" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915424" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.915429" level="DEBUG">Configuration file not loaded</msg>
+<msg time="2025-11-08T20:36:58.920003" level="INFO">Connect to DB using : pymysql.connect(db='myappdb', user='root', passwd=***, host='localhost', port=3306, charset='utf8mb4')</msg>
+<msg time="2025-11-08T20:36:58.924943" level="TRACE">Return: None</msg>
 <arg>pymysql</arg>
 <arg>${DBNAME}</arg>
 <arg>${DBUSER}</arg>
@@ -38,148 +38,305 @@
 <doc>Creates a database connection using the DB API 2.0 ``db_module`` and the parameters provided.
 Along with listed commonly used arguments (`db_name`, `db_host` etc.)
 you can set any other DB module specific parameters as key/value pairs.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.759475" elapsed="0.015445"/>
+<status status="PASS" start="2025-11-08T20:36:58.915147" elapsed="0.009835"/>
 </kw>
-<msg time="2025-11-07T17:28:03.774990" level="TRACE">Return: None</msg>
-<status status="PASS" start="2025-11-07T17:28:03.759231" elapsed="0.015777"/>
+<msg time="2025-11-08T20:36:58.925034" level="TRACE">Return: None</msg>
+<status status="PASS" start="2025-11-08T20:36:58.914918" elapsed="0.010130"/>
 </kw>
-<test id="s1-s1-t1" name="TC_002 Test call single create user and validate should bad request" line="17">
-<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
-<msg time="2025-11-07T17:28:03.775333" level="TRACE">Arguments: [ 'Connect database connection' | 'AND' | 'Delete all data' ]</msg>
-<kw name="Connect database connection" owner="database_keywords">
-<msg time="2025-11-07T17:28:03.775467" level="TRACE">Arguments: [  ]</msg>
-<kw name="Connect To Database" owner="DatabaseLibrary">
-<msg time="2025-11-07T17:28:03.775595" level="TRACE">Arguments: [ 'pymysql' | 'myappdb' | 'root' | 'rootpassword' | 'localhost' | 3306 ]</msg>
-<msg time="2025-11-07T17:28:03.775632" level="INFO">Looking for configuration file: 'resources/db.cfg'</msg>
-<msg time="2025-11-07T17:28:03.775646" level="INFO">Configuration file doesn't exist</msg>
-<msg time="2025-11-07T17:28:03.775653" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775659" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775664" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775669" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775673" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775678" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775683" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775688" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775692" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775697" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775701" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775706" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775710" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775715" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775720" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775724" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775729" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775733" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775738" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.775752" level="INFO">Connect to DB using : pymysql.connect(db='myappdb', user='root', passwd=***, host='localhost', port=3306, charset='utf8mb4')</msg>
-<msg time="2025-11-07T17:28:03.778222" level="WARN">Overwriting not closed connection.</msg>
-<msg time="2025-11-07T17:28:03.778284" level="TRACE">Return: None</msg>
-<arg>pymysql</arg>
-<arg>${DBNAME}</arg>
-<arg>${DBUSER}</arg>
-<arg>${DBPASS}</arg>
-<arg>${DBHOST}</arg>
-<arg>${DBPORT}</arg>
-<doc>Creates a database connection using the DB API 2.0 ``db_module`` and the parameters provided.
-Along with listed commonly used arguments (`db_name`, `db_host` etc.)
-you can set any other DB module specific parameters as key/value pairs.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.775508" elapsed="0.002788"/>
+<test id="s1-s1-t1" name="TC_004 Test all data in json file invalid cases" line="33">
+<kw name="Load Json From File" owner="JSONLibrary">
+<msg time="2025-11-08T20:36:58.925333" level="TRACE">Arguments: [ 'resources/testdata/posts-post-fuzzed-data.json' ]</msg>
+<msg time="2025-11-08T20:36:58.925357" level="DEBUG">Check if file exists</msg>
+<msg time="2025-11-08T20:36:58.925617" level="TRACE">Return: {'valid': [{'userId': 1, 'title': 'a', 'body': 'a'},
+           {'userId': 10, 'title': 'a', 'body': 'a'},
+           {'userId': 100, 'title': 'a', 'body': 'a'},
+           {'userId': 101, 'title': 'a', 'body': 'a'},
+           {'userId': 1, 'title': 'a', 'body': 'a'},
+           {'userId': 10, 'title': 'a', 'body': 'a'},
+           {'userId': 100, 'title': 'a', 'body': 'a'},
+           {'userId': 101, 'title': 'a', 'body': 'a'}],
+ 'invalid': [{},
+             {'userId': 0, 'title': 'a', 'body': 'a'},
+             {'userId': -100, 'title': 'a', 'body': 'a'},
+             {'userId': -10, 'title': 'a', 'body': 'a'},
+             {'userId': -1, 'title': 'a', 'body': 'a'},
+             {'title': 'a', 'body': 'a'},
+             {'userId': None, 'title': 'a', 'body': 'a'},
+             {'userId': None, 'title': 'a', 'body': 'a'},
+             {'userId': None, 'title': 'a', 'body': 'a'},
+             {'userId': None, 'title': 'a', 'body': 'a'},
+             {'userId': 'a', 'title': 'a', 'body': 'a'},
+             {'userId': True, 'title': 'a', 'body': 'a'},
+             {'userId': {}, 'title': 'a', 'body': 'a'},
+             {'userId': 1, 'title': '', 'body': 'a'},
+             {'userId': 1, 'body': 'a'},
+             {'userId': 1, 'title': None, 'body': 'a'},
+             {'userId': 1, 'title': 42, 'body': 'a'},
+             {'userId': 1, 'title': True, 'body': 'a'},
+             {'userId': 1, 'title': {}, 'body': 'a'},
+             {'userId': 1, 'title': 'a', 'body': ''},
+             {'userId': 1, 'title': 'a'},
+             {'userId': 1, 'title': 'a', 'body': None},
+             {'userId': 1, 'title': 'a', 'body': 42},
+             {'userId': 1, 'title': 'a', 'body': True},
+             {'userId': 1, 'title': 'a', 'body': {}},
+             None,
+             None,
+             42,
+             'a',
+             True]}</msg>
+<msg time="2025-11-08T20:36:58.925904" level="INFO">${json_obj} = {'valid': [{'userId': 1, 'title': 'a', 'body': 'a'}, {'userId': 10, 'title': 'a', 'body': 'a'}, {'userId': 100, 'title': 'a', 'body': 'a'}, {'userId': 101, 'title': 'a', 'body': 'a'}, {'userId': 1, 't...</msg>
+<var>${json_obj}</var>
+<arg>resources/testdata/posts-post-fuzzed-data.json</arg>
+<doc>Load JSON from file.</doc>
+<status status="PASS" start="2025-11-08T20:36:58.925298" elapsed="0.000616"/>
 </kw>
-<msg time="2025-11-07T17:28:03.778319" level="TRACE">Return: None</msg>
-<status status="PASS" start="2025-11-07T17:28:03.775417" elapsed="0.002912"/>
+<kw name="Get Value From Json" owner="JSONLibrary">
+<msg time="2025-11-08T20:36:58.926013" level="TRACE">Arguments: [ {'valid': [{'userId': 1, 'title': 'a', 'body': 'a'},
+           {'userId': 10, 'title': 'a', 'body': 'a'},
+           {'userId': 100, 'title': 'a', 'body': 'a'},
+           {'userId': 101, 'title': 'a', 'body': 'a'},
+           {'userId': 1, 'title': 'a', 'body': 'a'},
+           {'userId': 10, 'title': 'a', 'body': 'a'},
+           {'userId': 100, 'title': 'a', 'body': 'a'},
+           {'userId': 101, 'title': 'a', 'body': 'a'}],
+ 'invalid': [{},
+             {'userId': 0, 'title': 'a', 'body': 'a'},
+             {'userId': -100, 'title': 'a', 'body': 'a'},
+             {'userId': -10, 'title': 'a', 'body': 'a'},
+             {'userId': -1, 'title': 'a', 'body': 'a'},
+             {'title': 'a', 'body': 'a'},
+             {'userId': None, 'title': 'a', 'body': 'a'},
+             {'userId': None, 'title': 'a', 'body': 'a'},
+             {'userId': None, 'title': 'a', 'body': 'a'},
+             {'userId': None, 'title': 'a', 'body': 'a'},
+             {'userId': 'a', 'title': 'a', 'body': 'a'},
+             {'userId': True, 'title': 'a', 'body': 'a'},
+             {'userId': {}, 'title': 'a', 'body': 'a'},
+             {'userId': 1, 'title': '', 'body': 'a'},
+             {'userId': 1, 'body': 'a'},
+             {'userId': 1, 'title': None, 'body': 'a'},
+             {'userId': 1, 'title': 42, 'body': 'a'},
+             {'userId': 1, 'title': True, 'body': 'a'},
+             {'userId': 1, 'title': {}, 'body': 'a'},
+             {'userId': 1, 'title': 'a', 'body': ''},
+             {'userId': 1, 'title': 'a'},
+             {'userId': 1, 'title': 'a', 'body': None},
+             {'userId': 1, 'title': 'a', 'body': 42},
+             {'userId': 1, 'title': 'a', 'body': True},
+             {'userId': 1, 'title': 'a', 'body': {}},
+             None,
+             None,
+             42,
+             'a',
+             True]} | '$.invalid' ]</msg>
+<msg time="2025-11-08T20:36:58.934409" level="TRACE">Return: [[{},
+  {'userId': 0, 'title': 'a', 'body': 'a'},
+  {'userId': -100, 'title': 'a', 'body': 'a'},
+  {'userId': -10, 'title': 'a', 'body': 'a'},
+  {'userId': -1, 'title': 'a', 'body': 'a'},
+  {'title': 'a', 'body': 'a'},
+  {'userId': None, 'title': 'a', 'body': 'a'},
+  {'userId': None, 'title': 'a', 'body': 'a'},
+  {'userId': None, 'title': 'a', 'body': 'a'},
+  {'userId': None, 'title': 'a', 'body': 'a'},
+  {'userId': 'a', 'title': 'a', 'body': 'a'},
+  {'userId': True, 'title': 'a', 'body': 'a'},
+  {'userId': {}, 'title': 'a', 'body': 'a'},
+  {'userId': 1, 'title': '', 'body': 'a'},
+  {'userId': 1, 'body': 'a'},
+  {'userId': 1, 'title': None, 'body': 'a'},
+  {'userId': 1, 'title': 42, 'body': 'a'},
+  {'userId': 1, 'title': True, 'body': 'a'},
+  {'userId': 1, 'title': {}, 'body': 'a'},
+  {'userId': 1, 'title': 'a', 'body': ''},
+  {'userId': 1, 'title': 'a'},
+  {'userId': 1, 'title': 'a', 'body': None},
+  {'userId': 1, 'title': 'a', 'body': 42},
+  {'userId': 1, 'title': 'a', 'body': True},
+  {'userId': 1, 'title': 'a', 'body': {}},
+  None,
+  None,
+  42,
+  'a',
+  True]]</msg>
+<msg time="2025-11-08T20:36:58.934651" level="INFO">${valid_list} = [[{}, {'userId': 0, 'title': 'a', 'body': 'a'}, {'userId': -100, 'title': 'a', 'body': 'a'}, {'userId': -10, 'title': 'a', 'body': 'a'}, {'userId': -1, 'title': 'a', 'body': 'a'}, {'title': 'a', 'body...</msg>
+<var>${valid_list}</var>
+<arg>${json_obj}</arg>
+<arg>$.invalid</arg>
+<doc>Get Value From JSON using JSONPath</doc>
+<status status="PASS" start="2025-11-08T20:36:58.925977" elapsed="0.008687"/>
 </kw>
-<kw name="Delete all data" owner="database_keywords">
-<msg time="2025-11-07T17:28:03.778426" level="TRACE">Arguments: [  ]</msg>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-11-08T20:36:58.934963" level="TRACE">Arguments: [ [{},
+ {'userId': 0, 'title': 'a', 'body': 'a'},
+ {'userId': -100, 'title': 'a', 'body': 'a'},
+ {'userId': -10, 'title': 'a', 'body': 'a'},
+ {'userId': -1, 'title': 'a', 'body': 'a'},
+ {'title': 'a', 'body': 'a'},
+ {'userId': None, 'title': 'a', 'body': 'a'},
+ {'userId': None, 'title': 'a', 'body': 'a'},
+ {'userId': None, 'title': 'a', 'body': 'a'},
+ {'userId': None, 'title': 'a', 'body': 'a'},
+ {'userId': 'a', 'title': 'a', 'body': 'a'},
+ {'userId': True, 'title': 'a', 'body': 'a'},
+ {'userId': {}, 'title': 'a', 'body': 'a'},
+ {'userId': 1, 'title': '', 'body': 'a'},
+ {'userId': 1, 'body': 'a'},
+ {'userId': 1, 'title': None, 'body': 'a'},
+ {'userId': 1, 'title': 42, 'body': 'a'},
+ {'userId': 1, 'title': True, 'body': 'a'},
+ {'userId': 1, 'title': {}, 'body': 'a'},
+ {'userId': 1, 'title': 'a', 'body': ''},
+ {'userId': 1, 'title': 'a'},
+ {'userId': 1, 'title': 'a', 'body': None},
+ {'userId': 1, 'title': 'a', 'body': 42},
+ {'userId': 1, 'title': 'a', 'body': True},
+ {'userId': 1, 'title': 'a', 'body': {}},
+ None,
+ None,
+ 42,
+ 'a',
+ True] ]</msg>
+<msg time="2025-11-08T20:36:58.935100" level="TRACE">Return: [{},
+ {'userId': 0, 'title': 'a', 'body': 'a'},
+ {'userId': -100, 'title': 'a', 'body': 'a'},
+ {'userId': -10, 'title': 'a', 'body': 'a'},
+ {'userId': -1, 'title': 'a', 'body': 'a'},
+ {'title': 'a', 'body': 'a'},
+ {'userId': None, 'title': 'a', 'body': 'a'},
+ {'userId': None, 'title': 'a', 'body': 'a'},
+ {'userId': None, 'title': 'a', 'body': 'a'},
+ {'userId': None, 'title': 'a', 'body': 'a'},
+ {'userId': 'a', 'title': 'a', 'body': 'a'},
+ {'userId': True, 'title': 'a', 'body': 'a'},
+ {'userId': {}, 'title': 'a', 'body': 'a'},
+ {'userId': 1, 'title': '', 'body': 'a'},
+ {'userId': 1, 'body': 'a'},
+ {'userId': 1, 'title': None, 'body': 'a'},
+ {'userId': 1, 'title': 42, 'body': 'a'},
+ {'userId': 1, 'title': True, 'body': 'a'},
+ {'userId': 1, 'title': {}, 'body': 'a'},
+ {'userId': 1, 'title': 'a', 'body': ''},
+ {'userId': 1, 'title': 'a'},
+ {'userId': 1, 'title': 'a', 'body': None},
+ {'userId': 1, 'title': 'a', 'body': 42},
+ {'userId': 1, 'title': 'a', 'body': True},
+ {'userId': 1, 'title': 'a', 'body': {}},
+ None,
+ None,
+ 42,
+ 'a',
+ True]</msg>
+<msg time="2025-11-08T20:36:58.935221" level="INFO">${valid} = [{}, {'userId': 0, 'title': 'a', 'body': 'a'}, {'userId': -100, 'title': 'a', 'body': 'a'}, {'userId': -10, 'title': 'a', 'body': 'a'}, {'userId': -1, 'title': 'a', 'body': 'a'}, {'title': 'a', 'body'...</msg>
+<var>${valid}</var>
+<arg>${valid_list[0]}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-11-08T20:36:58.934757" elapsed="0.000472"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Template call api and verify json file invalid case" owner="create_user_keywords">
+<msg time="2025-11-08T20:36:58.935491" level="TRACE">Arguments: [ ${request_body}={} ]</msg>
+<kw name="Delete all data" owner="database_keywords" type="SETUP">
+<msg time="2025-11-08T20:36:58.935594" level="TRACE">Arguments: [  ]</msg>
 <kw name="Execute Sql String" owner="DatabaseLibrary">
-<msg time="2025-11-07T17:28:03.778484" level="TRACE">Arguments: [ 'TRUNCATE TABLE posts;' ]</msg>
-<msg time="2025-11-07T17:28:03.778508" level="INFO" html="true">Executing sql:&lt;br&gt;&lt;code style="font-weight: bold;"&gt;TRUNCATE TABLE posts;&lt;/code&gt;</msg>
-<msg time="2025-11-07T17:28:03.799522" level="INFO">Commit the transaction</msg>
-<msg time="2025-11-07T17:28:03.799833" level="TRACE">Return: None</msg>
+<msg time="2025-11-08T20:36:58.935661" level="TRACE">Arguments: [ 'TRUNCATE TABLE posts;' ]</msg>
+<msg time="2025-11-08T20:36:58.935685" level="INFO" html="true">Executing sql:&lt;br&gt;&lt;code style="font-weight: bold;"&gt;TRUNCATE TABLE posts;&lt;/code&gt;</msg>
+<msg time="2025-11-08T20:36:58.944408" level="INFO">Commit the transaction</msg>
+<msg time="2025-11-08T20:36:58.944701" level="TRACE">Return: None</msg>
 <arg>TRUNCATE TABLE posts;</arg>
 <doc>Executes the ``sql_string`` as a single SQL command.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.778460" elapsed="0.021397"/>
+<status status="PASS" start="2025-11-08T20:36:58.935632" elapsed="0.009093"/>
 </kw>
 <kw name="Query" owner="DatabaseLibrary">
-<msg time="2025-11-07T17:28:03.799988" level="TRACE">Arguments: [ 'SELECT COUNT(*) FROM posts;' ]</msg>
-<msg time="2025-11-07T17:28:03.800017" level="INFO" html="true">Executing sql:&lt;br&gt;&lt;code style="font-weight: bold;"&gt;SELECT COUNT(*) FROM posts;&lt;/code&gt;</msg>
-<msg time="2025-11-07T17:28:03.800957" level="INFO">Commit the transaction</msg>
-<msg time="2025-11-07T17:28:03.801167" level="INFO" html="true">&lt;div style="max-width: 100%; overflow-x: auto; max-height: 500px; overflow-y: auto;"&gt;&lt;table style="width: auto; border-collapse: collapse; border: 2px solid rgb(140 140 140)"&gt;&lt;caption style="text-align: left; font-weight: bold; padding: 5px;"&gt;Query returned 1 rows&lt;/caption&gt;&lt;tr&gt;&lt;th scope="col" style="position: sticky; top: 0; color:black; background-color: #d6ecd4; border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;Row&lt;/th&gt;&lt;th scope="col" style="position: sticky; top: 0; background-color: #505050; color: #fff;border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;COUNT(*)&lt;/th&gt;&lt;/tr&gt;&lt;tr style="background-color: var(--secondary-color, #eee)"&gt;&lt;th scope="row" style="color:black; background-color: #d6ecd4;border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;0&lt;/th&gt;&lt;td style="border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
-<msg time="2025-11-07T17:28:03.801197" level="TRACE">Return: ((0,),)</msg>
-<msg time="2025-11-07T17:28:03.801247" level="INFO">${rows} = ((0,),)</msg>
+<msg time="2025-11-08T20:36:58.944840" level="TRACE">Arguments: [ 'SELECT COUNT(*) FROM posts;' ]</msg>
+<msg time="2025-11-08T20:36:58.944865" level="INFO" html="true">Executing sql:&lt;br&gt;&lt;code style="font-weight: bold;"&gt;SELECT COUNT(*) FROM posts;&lt;/code&gt;</msg>
+<msg time="2025-11-08T20:36:58.945675" level="INFO">Commit the transaction</msg>
+<msg time="2025-11-08T20:36:58.945932" level="INFO" html="true">&lt;div style="max-width: 100%; overflow-x: auto; max-height: 500px; overflow-y: auto;"&gt;&lt;table style="width: auto; border-collapse: collapse; border: 2px solid rgb(140 140 140)"&gt;&lt;caption style="text-align: left; font-weight: bold; padding: 5px;"&gt;Query returned 1 rows&lt;/caption&gt;&lt;tr&gt;&lt;th scope="col" style="position: sticky; top: 0; color:black; background-color: #d6ecd4; border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;Row&lt;/th&gt;&lt;th scope="col" style="position: sticky; top: 0; background-color: #505050; color: #fff;border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;COUNT(*)&lt;/th&gt;&lt;/tr&gt;&lt;tr style="background-color: var(--secondary-color, #eee)"&gt;&lt;th scope="row" style="color:black; background-color: #d6ecd4;border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;0&lt;/th&gt;&lt;td style="border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg time="2025-11-08T20:36:58.945956" level="TRACE">Return: ((0,),)</msg>
+<msg time="2025-11-08T20:36:58.946004" level="INFO">${rows} = ((0,),)</msg>
 <var>${rows}</var>
 <arg>SELECT COUNT(*) FROM posts;</arg>
 <doc>Runs a query with the ``select_statement`` and returns the result as list of rows.
 The type of row values depends on the database module -
 usually they are tuples or tuple-like objects.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.799940" elapsed="0.001315"/>
+<status status="PASS" start="2025-11-08T20:36:58.944796" elapsed="0.001215"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-11-07T17:28:03.801506" level="TRACE">Arguments: [ 0 ]</msg>
-<msg time="2025-11-07T17:28:03.801530" level="TRACE">Return: 0</msg>
-<msg time="2025-11-07T17:28:03.801552" level="INFO">${count} = 0</msg>
+<msg time="2025-11-08T20:36:58.946254" level="TRACE">Arguments: [ 0 ]</msg>
+<msg time="2025-11-08T20:36:58.946277" level="TRACE">Return: 0</msg>
+<msg time="2025-11-08T20:36:58.946297" level="INFO">${count} = 0</msg>
 <var>${count}</var>
 <arg>${rows[0][0]}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.801302" elapsed="0.000258"/>
+<status status="PASS" start="2025-11-08T20:36:58.946067" elapsed="0.000238"/>
 </kw>
 <kw name="Should Be Equal As Integers" owner="BuiltIn">
-<msg time="2025-11-07T17:28:03.801635" level="TRACE">Arguments: [ 0 | '0' ]</msg>
-<msg time="2025-11-07T17:28:03.801663" level="INFO">Argument types are:
+<msg time="2025-11-08T20:36:58.946376" level="TRACE">Arguments: [ 0 | '0' ]</msg>
+<msg time="2025-11-08T20:36:58.946404" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
-<msg time="2025-11-07T17:28:03.801680" level="TRACE">Return: None</msg>
+<msg time="2025-11-08T20:36:58.946422" level="TRACE">Return: None</msg>
 <arg>${count}</arg>
 <arg>0</arg>
 <doc>Fails if objects are unequal after converting them to integers.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.801595" elapsed="0.000094"/>
+<status status="PASS" start="2025-11-08T20:36:58.946342" elapsed="0.000130"/>
 </kw>
-<msg time="2025-11-07T17:28:03.801710" level="TRACE">Return: None</msg>
-<status status="PASS" start="2025-11-07T17:28:03.778385" elapsed="0.023334"/>
+<msg time="2025-11-08T20:36:58.946511" level="TRACE">Return: None</msg>
+<status status="PASS" start="2025-11-08T20:36:58.935555" elapsed="0.010974"/>
 </kw>
-<msg time="2025-11-07T17:28:03.801732" level="TRACE">Return: None</msg>
-<arg>Connect database connection</arg>
-<arg>AND</arg>
-<arg>Delete all data</arg>
-<doc>Executes all the given keywords in a sequence.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.775295" elapsed="0.026445"/>
-</kw>
-<kw name="When Call API Create User" owner="create_user_keywords">
-<msg time="2025-11-07T17:28:03.802070" level="TRACE">Arguments: [ ${body}={'userId': '10', 'title': 'a', 'body': 'a'} | ${expected_status}='400' ]</msg>
+<kw name="Call API Create User" owner="create_user_keywords">
+<msg time="2025-11-08T20:36:58.946732" level="TRACE">Arguments: [ ${body}={} | ${expected_status}='201' ]</msg>
 <kw name="Create Session" owner="RequestsLibrary">
-<msg time="2025-11-07T17:28:03.802174" level="TRACE">Arguments: [ 'restapi' | 'http://localhost:3000' ]</msg>
-<msg time="2025-11-07T17:28:03.802195" level="INFO">Creating Session using : alias=restapi, url=http://localhost:3000, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<msg time="2025-11-07T17:28:03.802206" level="DEBUG">Creating session: restapi</msg>
-<msg time="2025-11-07T17:28:03.802292" level="TRACE">Return: &lt;requests.sessions.Session object at 0x10b7d52b0&gt;</msg>
+<msg time="2025-11-08T20:36:58.946828" level="TRACE">Arguments: [ 'restapi' | 'http://localhost:3000' ]</msg>
+<msg time="2025-11-08T20:36:58.946904" level="INFO">Creating Session using : alias=restapi, url=http://localhost:3000, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<msg time="2025-11-08T20:36:58.946928" level="DEBUG">Creating session: restapi</msg>
+<msg time="2025-11-08T20:36:58.947017" level="TRACE">Return: &lt;requests.sessions.Session object at 0x10b8ab0e0&gt;</msg>
 <arg>restapi</arg>
 <arg>${url}</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<status status="PASS" start="2025-11-07T17:28:03.802137" elapsed="0.000170"/>
+<status status="PASS" start="2025-11-08T20:36:58.946793" elapsed="0.000244"/>
 </kw>
 <kw name="Create Dictionary" owner="BuiltIn">
-<msg time="2025-11-07T17:28:03.802371" level="TRACE">Arguments: [ 'Content-Type=application/json' ]</msg>
-<msg time="2025-11-07T17:28:03.802416" level="TRACE">Return: {'Content-Type': 'application/json'}</msg>
-<msg time="2025-11-07T17:28:03.802444" level="INFO">${headers} = {'Content-Type': 'application/json'}</msg>
+<msg time="2025-11-08T20:36:58.947114" level="TRACE">Arguments: [ 'Content-Type=application/json' ]</msg>
+<msg time="2025-11-08T20:36:58.947166" level="TRACE">Return: {'Content-Type': 'application/json'}</msg>
+<msg time="2025-11-08T20:36:58.947198" level="INFO">${headers} = {'Content-Type': 'application/json'}</msg>
 <var>${headers}</var>
 <arg>Content-Type=application/json</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.802353" elapsed="0.000099"/>
+<status status="PASS" start="2025-11-08T20:36:58.947092" elapsed="0.000115"/>
 </kw>
 <kw name="POST On Session" owner="RequestsLibrary">
-<msg time="2025-11-07T17:28:03.802545" level="TRACE">Arguments: [ 'restapi' | '/posts' | json={'userId': '10', 'title': 'a', 'body': 'a'} | headers={'Content-Type': 'application/json'} | expected_status='400' ]</msg>
-<msg time="2025-11-07T17:28:03.806716" level="DEBUG">Starting new HTTP connection (1): localhost:3000</msg>
-<msg time="2025-11-07T17:28:03.811557" level="DEBUG">http://localhost:3000 "POST /posts HTTP/1.1" 400 11</msg>
-<msg time="2025-11-07T17:28:03.811716" level="INFO">POST Request : url=http://localhost:3000/posts 
+<msg time="2025-11-08T20:36:58.947307" level="TRACE">Arguments: [ 'restapi' | '/posts' | json={} | headers={'Content-Type': 'application/json'} | expected_status='201' ]</msg>
+<msg time="2025-11-08T20:36:58.950770" level="DEBUG">Starting new HTTP connection (1): localhost:3000</msg>
+<msg time="2025-11-08T20:36:58.953828" level="DEBUG">http://localhost:3000 "POST /posts HTTP/1.1" 400 11</msg>
+<msg time="2025-11-08T20:36:58.953976" level="INFO">POST Request : url=http://localhost:3000/posts 
  path_url=/posts 
- headers={'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate, zstd', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '43'} 
- body=b'{"userId": "10", "title": "a", "body": "a"}' 
+ headers={'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate, zstd', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '2'} 
+ body=b'{}' 
  </msg>
-<msg time="2025-11-07T17:28:03.811749" level="INFO">POST Response : url=http://localhost:3000/posts 
+<msg time="2025-11-08T20:36:58.954005" level="INFO">POST Response : url=http://localhost:3000/posts 
  status=400, reason=Bad Request 
- headers={'X-Powered-By': 'Express', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '11', 'ETag': 'W/"b-EFiDB1U+dmqzx9Mo2UjcZ1SJPO8"', 'Date': 'Fri, 07 Nov 2025 10:28:03 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5'} 
+ headers={'X-Powered-By': 'Express', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '11', 'ETag': 'W/"b-EFiDB1U+dmqzx9Mo2UjcZ1SJPO8"', 'Date': 'Sat, 08 Nov 2025 13:36:58 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5'} 
  body=Bad Request 
  </msg>
-<msg time="2025-11-07T17:28:03.811773" level="TRACE">Return: &lt;Response [400]&gt;</msg>
-<msg time="2025-11-07T17:28:03.811815" level="INFO">${response} = &lt;Response [400]&gt;</msg>
+<msg time="2025-11-08T20:36:58.954067" level="FAIL">Url: http://localhost:3000/posts Expected status: 400 != 201</msg>
+<msg time="2025-11-08T20:36:58.955452" level="DEBUG">Traceback (most recent call last):
+  File "/Users/chinnawat-pok/Documents/QA-term-project1-robot/env2/lib/python3.14/site-packages/RequestsLibrary/utils.py", line 154, in decorator
+    return func(*args, **kwargs)
+  File "/Users/chinnawat-pok/Documents/QA-term-project1-robot/env2/lib/python3.14/site-packages/RequestsLibrary/RequestsOnSessionKeywords.py", line 62, in post_on_session
+    self._check_status(expected_status, response, msg)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chinnawat-pok/Documents/QA-term-project1-robot/env2/lib/python3.14/site-packages/RequestsLibrary/SessionKeywords.py", line 582, in _check_status
+    assert_equal(resp.status_code, expected_status, msg)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chinnawat-pok/Documents/QA-term-project1-robot/env2/lib/python3.14/site-packages/robot/utils/asserts.py", line 180, in assert_equal
+    _report_inequality(first, second, "!=", msg, values, formatter)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chinnawat-pok/Documents/QA-term-project1-robot/env2/lib/python3.14/site-packages/robot/utils/asserts.py", line 237, in _report_inequality
+    raise AssertionError(msg)
+AssertionError: Url: http://localhost:3000/posts Expected status: 400 != 201</msg>
 <var>${response}</var>
 <arg>restapi</arg>
 <arg>/posts</arg>
@@ -187,145 +344,58 @@ usually they are tuples or tuple-like objects.</doc>
 <arg>headers=${headers}</arg>
 <arg>expected_status=${expected_status}</arg>
 <doc>Sends a POST request on a previously created HTTP Session.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.802486" elapsed="0.009336"/>
+<status status="FAIL" start="2025-11-08T20:36:58.947245" elapsed="0.008228">Url: http://localhost:3000/posts Expected status: 400 != 201</status>
 </kw>
 <kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2025-11-07T17:28:03.811917" level="TRACE">Arguments: [ '${response}' | '${response}' ]</msg>
-<msg time="2025-11-07T17:28:03.811983" level="INFO">${response} = &lt;Response [400]&gt;</msg>
-<msg time="2025-11-07T17:28:03.811993" level="TRACE">Return: None</msg>
 <arg>${response}</arg>
 <arg>${response}</arg>
 <doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.811892" elapsed="0.000111"/>
+<status status="NOT RUN" start="2025-11-08T20:36:58.955551" elapsed="0.000009"/>
 </kw>
-<msg time="2025-11-07T17:28:03.812023" level="TRACE">Return: None</msg>
-<arg>body=${create_user.TC_002.request_body}</arg>
-<arg>expected_status=400</arg>
-<status status="PASS" start="2025-11-07T17:28:03.801854" elapsed="0.010179"/>
+<arg>body=${request_body}</arg>
+<arg>expected_status=201</arg>
+<status status="FAIL" start="2025-11-08T20:36:58.946609" elapsed="0.008997">Url: http://localhost:3000/posts Expected status: 400 != 201</status>
 </kw>
-<kw name="Then Should Be Equal As Integers" owner="BuiltIn">
-<msg time="2025-11-07T17:28:03.812267" level="TRACE">Arguments: [ 400 | '400' ]</msg>
-<msg time="2025-11-07T17:28:03.812294" level="INFO">Argument types are:
-&lt;class 'int'&gt;
-&lt;class 'str'&gt;</msg>
-<msg time="2025-11-07T17:28:03.812310" level="TRACE">Return: None</msg>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
 <arg>${response.status_code}</arg>
 <arg>400</arg>
 <doc>Fails if objects are unequal after converting them to integers.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.812103" elapsed="0.000218"/>
+<status status="NOT RUN" start="2025-11-08T20:36:58.955639" elapsed="0.000007"/>
 </kw>
-<kw name="AND Verify User Database is Empty" owner="create_user_keywords">
-<msg time="2025-11-07T17:28:03.812566" level="TRACE">Arguments: [ ${userId}='10' ]</msg>
-<kw name="Query data from posts table by userId" owner="database_keywords">
-<msg time="2025-11-07T17:28:03.812693" level="TRACE">Arguments: [ ${userId}='10' ]</msg>
-<kw name="Connect To Database" owner="DatabaseLibrary">
-<msg time="2025-11-07T17:28:03.812817" level="TRACE">Arguments: [ 'pymysql' | 'myappdb' | 'root' | 'rootpassword' | 'localhost' | 3306 ]</msg>
-<msg time="2025-11-07T17:28:03.812862" level="INFO">Looking for configuration file: 'resources/db.cfg'</msg>
-<msg time="2025-11-07T17:28:03.812880" level="INFO">Configuration file doesn't exist</msg>
-<msg time="2025-11-07T17:28:03.812889" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812894" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812900" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812905" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812910" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812915" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812920" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812926" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812931" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812935" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812940" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812945" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812950" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812955" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812960" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812965" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812969" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812975" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812980" level="DEBUG">Configuration file not loaded</msg>
-<msg time="2025-11-07T17:28:03.812997" level="INFO">Connect to DB using : pymysql.connect(db='myappdb', user='root', passwd=***, host='localhost', port=3306, charset='utf8mb4')</msg>
-<msg time="2025-11-07T17:28:03.814545" level="WARN">Overwriting not closed connection.</msg>
-<msg time="2025-11-07T17:28:03.814614" level="TRACE">Return: None</msg>
-<arg>pymysql</arg>
-<arg>${DBNAME}</arg>
-<arg>${DBUSER}</arg>
-<arg>${DBPASS}</arg>
-<arg>${DBHOST}</arg>
-<arg>${DBPORT}</arg>
-<doc>Creates a database connection using the DB API 2.0 ``db_module`` and the parameters provided.
-Along with listed commonly used arguments (`db_name`, `db_host` etc.)
-you can set any other DB module specific parameters as key/value pairs.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.812737" elapsed="0.001896"/>
+<arg>request_body=${item}</arg>
+<status status="FAIL" start="2025-11-08T20:36:58.935407" elapsed="0.020272">Url: http://localhost:3000/posts Expected status: 400 != 201</status>
 </kw>
-<kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-11-07T17:28:03.814738" level="TRACE">Arguments: [ 'SELECT * FROM posts where user_id=10;' ]</msg>
-<msg time="2025-11-07T17:28:03.814762" level="TRACE">Return: 'SELECT * FROM posts where user_id=10;'</msg>
-<msg time="2025-11-07T17:28:03.814785" level="INFO">${query} = SELECT * FROM posts where user_id=10;</msg>
-<var>${query}</var>
-<arg>SELECT * FROM posts where user_id=${userId};</arg>
-<doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.814688" elapsed="0.000104"/>
-</kw>
-<kw name="Query" owner="DatabaseLibrary">
-<msg time="2025-11-07T17:28:03.814927" level="TRACE">Arguments: [ 'SELECT * FROM posts where user_id=10;' ]</msg>
-<msg time="2025-11-07T17:28:03.814952" level="INFO" html="true">Executing sql:&lt;br&gt;&lt;code style="font-weight: bold;"&gt;SELECT * FROM posts where user_id=10;&lt;/code&gt;</msg>
-<msg time="2025-11-07T17:28:03.815591" level="INFO">Commit the transaction</msg>
-<msg time="2025-11-07T17:28:03.815836" level="INFO" html="true">&lt;div style="max-width: 100%; overflow-x: auto; max-height: 500px; overflow-y: auto;"&gt;&lt;table style="width: auto; border-collapse: collapse; border: 2px solid rgb(140 140 140)"&gt;&lt;caption style="text-align: left; font-weight: bold; padding: 5px;"&gt;Query returned 0 rows&lt;/caption&gt;&lt;tr&gt;&lt;th scope="col" style="position: sticky; top: 0; color:black; background-color: #d6ecd4; border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;Row&lt;/th&gt;&lt;th scope="col" style="position: sticky; top: 0; background-color: #505050; color: #fff;border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;id&lt;/th&gt;&lt;th scope="col" style="position: sticky; top: 0; background-color: #505050; color: #fff;border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;user_id&lt;/th&gt;&lt;th scope="col" style="position: sticky; top: 0; background-color: #505050; color: #fff;border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;title&lt;/th&gt;&lt;th scope="col" style="position: sticky; top: 0; background-color: #505050; color: #fff;border: 1px solid rgb(160 160 160);padding: 8px 10px;text-align: center;"&gt;body&lt;/th&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
-<msg time="2025-11-07T17:28:03.815866" level="TRACE">Return: ()</msg>
-<msg time="2025-11-07T17:28:03.815897" level="INFO">${result} = ()</msg>
-<var>${result}</var>
-<arg>${query}</arg>
-<doc>Runs a query with the ``select_statement`` and returns the result as list of rows.
-The type of row values depends on the database module -
-usually they are tuples or tuple-like objects.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.814879" elapsed="0.001026"/>
-</kw>
-<return>
-<value>${result}</value>
-<status status="PASS" start="2025-11-07T17:28:03.815931" elapsed="0.000026"/>
-</return>
-<msg time="2025-11-07T17:28:03.815997" level="TRACE">Return: ()</msg>
-<msg time="2025-11-07T17:28:03.816020" level="INFO">${query_response} = ()</msg>
-<var>${query_response}</var>
-<arg>userId=${userId}</arg>
-<status status="PASS" start="2025-11-07T17:28:03.812633" elapsed="0.003394"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-11-07T17:28:03.816103" level="TRACE">Arguments: [ () ]</msg>
-<msg time="2025-11-07T17:28:03.816121" level="INFO">()</msg>
-<msg time="2025-11-07T17:28:03.816131" level="TRACE">Return: None</msg>
-<arg>${query_response}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.816070" elapsed="0.000070"/>
-</kw>
-<msg time="2025-11-07T17:28:03.816154" level="TRACE">Return: None</msg>
-<arg>userId=${create_user.TC_002.request_body.userId}</arg>
-<status status="PASS" start="2025-11-07T17:28:03.812400" elapsed="0.003763"/>
-</kw>
-<status status="PASS" start="2025-11-07T17:28:03.775064" elapsed="0.041152"/>
+<var name="${item}">{}</var>
+<status status="FAIL" start="2025-11-08T20:36:58.935341" elapsed="0.020355">Url: http://localhost:3000/posts Expected status: 400 != 201</status>
+</iter>
+<var>${item}</var>
+<value>@{valid}</value>
+<status status="FAIL" start="2025-11-08T20:36:58.935273" elapsed="0.020445">Url: http://localhost:3000/posts Expected status: 400 != 201</status>
+</for>
+<doc>Test read file from json file and verify should be failed</doc>
+<status status="FAIL" start="2025-11-08T20:36:58.925085" elapsed="0.030730">Url: http://localhost:3000/posts Expected status: 400 != 201</status>
 </test>
 <kw name="Disconnect From Database" owner="DatabaseLibrary" type="TEARDOWN">
-<msg time="2025-11-07T17:28:03.816433" level="TRACE">Arguments: [  ]</msg>
-<msg time="2025-11-07T17:28:03.816468" level="TRACE">Return: None</msg>
+<msg time="2025-11-08T20:36:58.956045" level="TRACE">Arguments: [  ]</msg>
+<msg time="2025-11-08T20:36:58.956098" level="TRACE">Return: None</msg>
 <doc>Disconnects from the database.</doc>
-<status status="PASS" start="2025-11-07T17:28:03.816413" elapsed="0.000068"/>
+<status status="PASS" start="2025-11-08T20:36:58.956010" elapsed="0.000106"/>
 </kw>
-<status status="PASS" start="2025-11-07T17:28:03.673865" elapsed="0.142630"/>
+<status status="FAIL" start="2025-11-08T20:36:58.839917" elapsed="0.116211"/>
 </suite>
-<status status="PASS" start="2025-11-07T17:28:03.662133" elapsed="0.154534"/>
+<status status="FAIL" start="2025-11-08T20:36:58.828156" elapsed="0.128148"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Testcases" id="s1" pass="1" fail="0" skip="0">Testcases</stat>
-<stat name="Post Create User" id="s1-s1" pass="1" fail="0" skip="0">Testcases.Post Create User</stat>
+<stat name="Testcases" id="s1" pass="0" fail="1" skip="0">Testcases</stat>
+<stat name="Post Create User" id="s1-s1" pass="0" fail="1" skip="0">Testcases.Post Create User</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-11-07T17:28:03.757950" level="WARN">Error in file '/Users/chinnawat-pok/Documents/QA-term-project1-robot/keywords/database_keywords.robot' on line 17: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
-<msg time="2025-11-07T17:28:03.778222" level="WARN">Overwriting not closed connection.</msg>
-<msg time="2025-11-07T17:28:03.814545" level="WARN">Overwriting not closed connection.</msg>
 </errors>
 </robot>

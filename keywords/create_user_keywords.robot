@@ -8,8 +8,6 @@ ${url}    http://localhost:3000
 *** Keywords ***
 Call API Create User
     [Arguments]   ${body}  ${expected_status}=201
-    #${user_id}=    Convert To Integer    2
-    #${request_body}=    Create Dictionary    userId=${user_id}    title=test    body=Test body
     Create Session    restapi    ${url}
     ${headers}=    Create Dictionary    Content-Type=application/json
     ${response}=    Post On Session    restapi    /posts    json=${body}    headers=${headers}  expected_status=${expected_status}
